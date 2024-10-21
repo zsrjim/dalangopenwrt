@@ -16,6 +16,7 @@ CONFIG_PACKAGE_boost-system=y
 CONFIG_PACKAGE_chinadns-ng=y
 CONFIG_PACKAGE_coreutils-nohup=y
 # CONFIG_PACKAGE_dbus is not set
+# CONFIG_PACKAGE_etherwake is not set
 CONFIG_PACKAGE_haproxy=y
 CONFIG_PACKAGE_ip6tables=y
 CONFIG_PACKAGE_ipt2socks=y
@@ -38,6 +39,9 @@ CONFIG_PACKAGE_kmod-nf-log6=y
 CONFIG_PACKAGE_kmod-nf-nat6=y
 CONFIG_PACKAGE_kmod-nf-reject6=y
 CONFIG_PACKAGE_kmod-nf-socket=y
+CONFIG_PACKAGE_kmod-nft-core=y
+CONFIG_PACKAGE_kmod-nft-nat=y
+CONFIG_PACKAGE_kmod-nft-nat6=y
 CONFIG_PACKAGE_kmod-sit=y
 # CONFIG_PACKAGE_kmod-tcp-bbr is not set
 # CONFIG_PACKAGE_libattr is not set
@@ -90,8 +94,10 @@ CONFIG_PACKAGE_luci-app-softethervpn=y
 # CONFIG_PACKAGE_luci-app-upnp is not set
 # CONFIG_PACKAGE_luci-app-vlmcsd is not set
 # CONFIG_PACKAGE_luci-app-vsftpd is not set
+# CONFIG_PACKAGE_luci-app-wol is not set
 CONFIG_PACKAGE_luci-i18n-passwall-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-softethervpn-zh-cn=y
+CONFIG_PACKAGE_luci-theme-opentopd=y
 # CONFIG_PACKAGE_miniupnpd is not set
 # CONFIG_PACKAGE_nlbwmon is not set
 CONFIG_PACKAGE_openssh-sftp-server=y
@@ -122,6 +128,7 @@ CONFIG_PACKAGE_unzip=y
 CONFIG_PACKAGE_v2ray-plugin=y
 # CONFIG_PACKAGE_vlmcsd is not set
 # CONFIG_PACKAGE_vsftpd-alt is not set
+# CONFIG_PACKAGE_wol is not set
 # CONFIG_PACKAGE_wsdd2 is not set
 CONFIG_SING_BOX_WITH_CLASH_API=y
 CONFIG_SING_BOX_WITH_DHCP=y
